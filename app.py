@@ -1,6 +1,5 @@
 # Streamlit app code here:
 import streamlit as st
-from tensorflow.keras.preprocessing import image
 import numpy as np
 from PIL import Image
 
