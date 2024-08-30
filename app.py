@@ -1,5 +1,6 @@
-# Streamlit app code here:
 import streamlit as st
+import tensorflow as tf  # Ensure TensorFlow is imported
+from tensorflow.keras.preprocessing import image
 import numpy as np
 from PIL import Image
 
@@ -34,4 +35,3 @@ if uploaded_file is not None:
     
     # Display the prediction
     st.write(f"Predicted class: {predicted_class[0]}")
-
